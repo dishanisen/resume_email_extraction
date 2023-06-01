@@ -1,5 +1,5 @@
 # Extract email ids from CV and store them in a text file
-## Replace the following in the script "extact_emails.sh":
+### Replace the following in the script "extact_emails.sh":
 -  /path/to/pdf/folder with the actual path to your folder containing the PDF files
 -  /path/to/output.txt with the desired path and filename for the output file
 
@@ -10,8 +10,8 @@ After saving the updated script, make it executable (chmod +x extract_emails.sh)
 The email addresses extracted from all the PDF files will be stored in the specified output file.
 
 # Extract email ids from CV and store them in a google sheet
-Before running 
-## Replace the following in the script "extact_emails_google_sheet.sh":
+
+### Replace the following in the script "extact_emails_google_sheet.sh":
 
 - /path/to/pdf/folder: Specify the path to the folder containing the PDF files.
 - YOUR_SPREADSHEET_ID: Replace it with the actual ID of your Google Sheet. You can find it in the URL of the Google Sheet between the /d/ and /edit.
